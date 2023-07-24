@@ -34,3 +34,25 @@ const myFunction =  function(){
 }
 
 console.log(typeof  bigNumber );
+
+
+ //stack (Primitive)  Heap (non-primitive)
+
+let myChannel = "codewithdattu"
+let channel = myChannel;
+channel = "chai aur code"
+
+console.log(myChannel);
+console.log(channel);
+
+let userOne ={
+    email:"dattugama@gmail.com"
+    password:"123@ybl"
+}
+
+let userTwo = userOne;
+userOne = "chaiaurcode@gmail.com"
+
+console.log(userTwo)
+ 
+ 
