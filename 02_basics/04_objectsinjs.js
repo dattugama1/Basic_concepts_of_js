@@ -48,6 +48,6 @@ const regularUser = [
 
 console.log(Object.keys(dattuUser)); //get the keys in an array
 console.log(Object.values(dattuUser)); // get values present in key in an array
-console.log(Object.entries(dattuUser));
+console.log(Object.entries(dattuUser)); // it shares the output in loops of arrays of single (key,value) 
 
 console.log(dattuUser.hasOwnProperty('age1')) //checks the value is present or not  program 
