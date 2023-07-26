@@ -1,4 +1,4 @@
- const dattuUser = {}
+  const dattuUser = {}
 // console.log(dattuUser)
 
 
@@ -46,8 +46,8 @@ const regularUser = [
 
 // console.log(regularUser[2].id)
 
-console.log(Object.keys(dattuUser));
-console.log(Object.values(dattuUser));
+console.log(Object.keys(dattuUser)); //get the keys in an array
+console.log(Object.values(dattuUser)); // get values present in key in an array
 console.log(Object.entries(dattuUser));
 
-console.log(dattuUser.hasOwnProperty('age1'))
+console.log(dattuUser.hasOwnProperty('age1')) //checks the value is present or not  program 
